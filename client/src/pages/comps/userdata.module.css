@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    min-height: calc(100vh - 78px - 20px); /* calc(viewport_height - nav_height - 2 * body_margin)*/ 
+}
+
+.top_container {
+    height: 30px;
+    min-width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_container {
+    min-height: 100%;
+    min-width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project_nav {
+    display: flex;
+    justify-content: flex-start;
+}

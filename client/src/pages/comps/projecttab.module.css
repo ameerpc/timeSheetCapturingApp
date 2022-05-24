@@ -1,0 +1,62 @@
+:root {
+    --project-tab-bg-color: #4A148C;
+}
+.container {
+    position: fixed;
+    width: 820px;
+    min-height: 88vh;
+    top: 0;
+    left: 0;
+    background-color: var(--project-tab-bg-color);
+    margin: 30px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.heading {
+    font-size: x-large;
+    font-weight: 600;
+}
+.form_container {
+    width: calc(100% - 50px);
+    height: 100%;
+    background: transparent;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.form_input {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.form_input > label {
+    flex-basis: 200px;
+    font-size: large;
+}
+.form_input > input, .form_input > select, .form_input > option {
+    opacity: 0.8;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px;
+    margin-left: 10px;
+}
+.form_input > input[type='text'] {
+    min-width: 60%;
+}
+.input_submit, .input_reset {
+    margin-top: 60px;
+    width: 40%;
+    align-self: center;
+    background-color: aqua;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+.close {
+    font-size: xx-large;
+    cursor: pointer;
+}
